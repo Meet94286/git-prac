@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './common/header/Header';
 import './index.css';
 
 ReactDOM.render(
-  <div></div>, document.getElementById('root'));
+  <div>
+  <Header/>
+  </div>, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
